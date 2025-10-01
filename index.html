@@ -1,43 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BodyShape</title>
     <!-- this is the favicon -->
-    <link rel="shortcut icon" href="images/logo_left.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/logo_left.png" type="image/x-icon" />
     <!-- this is tailwind css cdn -->
-        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- this is for the font awesome -->
+     <script src="https://kit.fontawesome.com/3ee5fd7562.js" crossorigin="anonymous"></script>
     <!-- thi is the css link -->
-     <link rel="stylesheet" href="style.css">
-
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <!-- this is header section -->
-     <header class="bg-[url('images/banner.png')]">
-        <!-- this is the navigation section -->
-        <nav class="w-11/12 mx-auto flex flex-col md:flex-row items-center justify-between py-5">
-            <div class="sm:mb-5">
-                <div class="flex gap-2 ">
-                    <img src="images/logo_left.png" alt="">
-                    <h3 class="text-3xl josefin-sans font-bold bg-gradient-to-r from-orange-400 to-orange-700 bg-clip-text text-transparent">BodyShape</h3>
-                    <img src="images/logo_right.png" alt="">
-                </div>
-                <p class="text-center bg-gradient-to-r from-orange-400 to-orange-700 bg-clip-text text-transparent">Unleash your inner athlete</p>
-            </div>
-            <ul class="flex gap-5 md:gap-12 ">
-                <li class="hover:border-b-orange-400 hover:border-b-2 p-1 text-white font-medium text-sm md:text-xl">Home</li>
-                <li class="hover:border-b-orange-400 hover:border-b-2 p-1 text-white font-medium text-sm md:text-xl">Service</li>
-                <li class="hover:border-b-orange-400 hover:border-b-2 p-1 text-white font-medium text-sm md:text-xl">About</li>
-                <li class="hover:border-b-orange-400 hover:border-b-2 p-1 text-white font-medium text-sm md:text-xl">Contact</li>
-                <li class="bg-gradient-to-r from-orange-400 to-orange-700 bg px-2 py-1 text-white text-sm md:text-xl">Join us</li>
-            </ul>
-        </nav>
+    <header class="bg-[url('images/banner.png')] bg-cover">
+      <!-- this is the navigation section -->
+      <nav
+        class="w-11/12 mx-auto flex flex-col md:flex-row items-center justify-between py-5"
+      >
+        <div class="sm:mb-5">
+          <div class="flex gap-2">
+            <img src="images/logo_left.png" alt="" />
+            <h3
+              class="text-3xl josefin-sans font-bold bg-gradient-to-r from-orange-400 to-orange-700 bg-clip-text text-transparent"
+            >
+              BodyShape
+            </h3>
+            <img src="images/logo_right.png" alt="" />
+          </div>
+          <p
+            class="text-center bg-gradient-to-r from-orange-400 to-orange-700 bg-clip-text text-transparent"
+          >
+            Unleash your inner athlete
+          </p>
+        </div>
+        <ul class="flex gap-5 md:gap-12">
+          <li
+            class="hover:border-b-orange-400 hover:border-b-2 p-1 text-white font-medium text-sm md:text-xl"
+          >
+            Home
+          </li>
+          <li
+            class="hover:border-b-orange-400 hover:border-b-2 p-1 text-white font-medium text-sm md:text-xl"
+          >
+            Service
+          </li>
+          <li
+            class="hover:border-b-orange-400 hover:border-b-2 p-1 text-white font-medium text-sm md:text-xl"
+          >
+            About
+          </li>
+          <li
+            class="hover:border-b-orange-400 hover:border-b-2 p-1 text-white font-medium text-sm md:text-xl"
+          >
+            Contact
+          </li>
+          <li
+            class="bg-gradient-to-r from-orange-400 to-orange-700 bg px-2 py-1 text-white text-sm md:text-xl"
+          >
+            Join us
+          </li>
+        </ul>
+      </nav>
 
-        <!-- this is the banner section -->
-         <section>
-            <h1></h1>
-         </section>
-     </header>
-</body>
+      <!-- this is the banner section -->
+      <section class="text-white w-11/12 mx-auto my-5 h-screen flex items-center">
+        <div class="md:w-4/12 space-y-5">
+          <h1 class="text-8xl font-bold ">Transform Your Body</h1>
+          <p class="text-xl">
+            We are dedicated to helping you transform <br> your body and  mind through
+            the power of fitness.
+          </p>
+          <div class="md:mt-30 flex items-center gap-6">
+            <button class="px-8 py-3 bg-gradient-to-r from-orange-400 to-orange-700 font-medium text-white">Get started</button>
+            <button class="px-8 py-3 border-orange-500 border-2 font-medium bg-gradient-to-r from-orange-400 to-orange-700 bg-clip-text text-transparent items-center"><i class="fa-regular fa-circle-play mr-4 text-xl"></i>Watch review</button>
+          </div>
+        </div>
+      </section>
+    </header>
+  </body>
 </html>
