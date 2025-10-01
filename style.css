@@ -1,5 +1,7 @@
 /* this is for josefin font */
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+/* this is lucida font */
+@import url("https://fonts.cdnfonts.com/css/lucida-sans");
 
 .josefin-sans {
   font-family: "Josefin Sans", sans-serif;
@@ -9,7 +11,8 @@
 
 /* thi is for Lucida Sans font */
 .lucida-font {
-  font-family: "lucida", sans-serif;
-  src: url(lucida-sans/LSANSD.TTF) format(TFF);
+  font-family: "Lucida Sans", sans-serif;
+  font-family: "Lucida Sans Typewriter", sans-serif;
+  font-family: "Lucida Sans Unicode", sans-serif;
   font-style: normal;
 }
